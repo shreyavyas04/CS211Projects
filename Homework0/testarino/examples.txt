@@ -1,0 +1,57 @@
+
+Examples:
+
+	If a file contains only: "a\n"
+	you have:
+		2 chars
+		1 word
+		1 line
+	
+	If a file contains only: "a"
+	you have:
+		1 char
+		1 word
+		1 line
+
+	If a file contains only: "a a\n"
+	you have:
+		4 chars
+		2 words
+		1 line
+		
+	If a file contains only: ". ?\n"
+	you have:
+		4 chars
+		2 words
+		1 line
+
+	If a file contains only: "a\ta\n"
+	you have:
+		4 chars
+		2 words
+		1 line
+
+	If a file contains only: "a\na"
+	you have:
+		3 chars
+		2 words
+		2 lines
+		
+	If a file contains only: "\n\n\n\n"
+	you have:
+		4 chars
+		0 words
+		4 lines
+
+	If a file contains only: " "
+	you have:
+		1 chars
+		0 words
+		0 lines
+
+	If a file contains only: ""
+	you have:
+		0 chars
+		0 words
+		0 lines
+		
